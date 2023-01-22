@@ -6,6 +6,7 @@ public class ArenaSize : MonoBehaviour
 {
     public static ArenaSize instance;
 
+    public bool rescaleWithScore = false;
     public float ArenaRadius => arenaRadius;
     float arenaRadius;
 
@@ -34,7 +35,7 @@ public class ArenaSize : MonoBehaviour
 
     private void Update()
     {
-        RescaleArena();
+        if (rescaleWithScore) RescaleArena();
     }
 
     private void OnDestroy()

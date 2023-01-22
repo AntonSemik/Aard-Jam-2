@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerKillable : IsKillable
 {
+    [SerializeField] GameObject loseMenuPanel;
+
     public override void Die()
     {
-        Debug.Log("Player lost");
-
-        Time.timeScale = 0f;
+        if(OpenScene.onOpenScene != null) OpenScene.onOpenScene();
     }
 }

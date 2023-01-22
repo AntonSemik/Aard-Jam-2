@@ -5,8 +5,11 @@ public class HighScoreUIListener : MonoBehaviour
 {
     [SerializeField] TMP_Text highScoreText;
 
+
     private void Awake()
     {
+        SetScore(PlayerPrefs.GetInt("Highscore"));
+
         Score.onHighScoreChanged += SetScore;
     }
 

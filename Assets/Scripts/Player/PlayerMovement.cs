@@ -51,6 +51,6 @@ public class PlayerMovement : MonoBehaviour
 
     void ScoreMultiplierChanged(int value)
     {
-        currentScoreMultiplier = value;
+        currentScoreMultiplier = value - 1;
     }
 }

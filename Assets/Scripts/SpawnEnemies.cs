@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class SpawnEnemies : MonoBehaviour
 {
-    [SerializeField] float firstSpawnDelay = 3f;
-    [SerializeField] float spawnRateBase = 10f;
-    [SerializeField] float spawnAccelerationPerWave = 0.1f;
-    float accumulatedSpawnAcceleration;
-    float spawnTimer = 0;
+    [SerializeField] float spawnDistance = 10f;
+    [SerializeField] EnemyGroupTimings easyGroupTimings;
+    [SerializeField] EnemyGroupTimings averageGroupTimings;
+    //[SerializeField] EnemyGroupTimings hardGroupTimings;
+    //[SerializeField] EnemyGroupTimings bossGroupTimings;
+
+
+    [System.Serializable] public class EnemyGroupTimings
+    {
+        public float firstSpawnDelay;
+        public float spawnRateBase;
+        public float spawnAccelerationPerWave;
+
+        [HideInInspector] public float accumulatedSpawnAcceleration;
+        [HideInInspector] public float spawnTimer;
+    }
 
     [System.Serializable] public class EnemyGroup
     {
@@ -20,25 +31,33 @@ public class SpawnEnemies : MonoBehaviour
 
     private void Start()
     {
-        spawnTimer = firstSpawnDelay;
+        easyGroupTimings.spawnTimer = easyGroupTimings.firstSpawnDelay;
+        averageGroupTimings.spawnTimer = averageGroupTimings.firstSpawnDelay;
+
     }
 
     private void Update()
     {
-        if (spawnTimer <= 0)
-        {
-            SpawnEnemyGroup(easyGroups[Random.Range(0, easyGroups.Length)]);
+        SpawnEnemyGroup(easyGroupTimings,easyGroups);
+        SpawnEnemyGroup(averageGroupTimings, averageGroups);
+    }
 
-            accumulatedSpawnAcceleration += spawnAccelerationPerWave;
-            spawnTimer = spawnRateBase;
+    void SpawnEnemyGroup(EnemyGroupTimings timings, EnemyGroup[] groupArray)
+    {
+        if (timings.spawnTimer <= 0)
+        {
+            SpawnEnemiesFromGroup(groupArray[Random.Range(0, groupArray.Length)]);
+
+            timings.accumulatedSpawnAcceleration += timings.spawnAccelerationPerWave;
+            timings.spawnTimer = timings.spawnRateBase;
         }
         else
         {
-            spawnTimer -= Time.deltaTime * (1 + accumulatedSpawnAcceleration);
+            timings.spawnTimer -= Time.deltaTime * (1 + timings.accumulatedSpawnAcceleration);
         }
     }
 
-    void SpawnEnemyGroup(EnemyGroup enemyGroup)
+    void SpawnEnemiesFromGroup(EnemyGroup enemyGroup)
     {
         foreach(GameObject enemy in enemyGroup.enemiesInGroup)
         {
@@ -56,6 +75,6 @@ public class SpawnEnemies : MonoBehaviour
             point = Vector3.forward;
         }
 
-        return point.normalized * ArenaSize.instance.ArenaRadius;
+        return point.normalized * spawnDistance;
     }
 }

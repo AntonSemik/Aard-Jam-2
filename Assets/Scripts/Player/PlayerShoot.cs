@@ -10,14 +10,16 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gunpoint;
 
-    [SerializeField] float reloadTimeBase = 1f;
+    [SerializeField] float reloadTimeBase = 0.5f;
     [SerializeField] float timeFactorPerMultiplier = 0.2f;
     int currentScoreMultiplier = 1;
+
+    [SerializeField] float bulletSpreadAngle = 3.0f;
 
     float timeToNextShot = 0; bool isLoaded;
 
     Queue<GameObject> bulletQueue = new Queue<GameObject>();
-    int poolSize = 20;
+    [SerializeField] int poolSize = 20;
     GameObject tempObject;
 
     private void Start()
@@ -41,15 +43,18 @@ public class PlayerShoot : MonoBehaviour
     {
         if (!isLoaded)
         {
-            timeToNextShot -= Time.deltaTime * (1 + timeFactorPerMultiplier * currentScoreMultiplier);
-            if(timeToNextShot <= 0) isLoaded = true;
+            //timeToNextShot -= Time.deltaTime * (1 + timeFactorPerMultiplier * currentScoreMultiplier);
+
+            timeToNextShot -= Time.deltaTime;
+            if (timeToNextShot <= 0) isLoaded = true;
         }
 
         if(shootInput > 0 && isLoaded)
         {
             Shoot();
 
-            timeToNextShot = reloadTimeBase; isLoaded = false;
+            timeToNextShot = reloadTimeBase * ( 1 + timeFactorPerMultiplier * currentScoreMultiplier);
+            isLoaded = false;
         }
     }
 
@@ -81,6 +86,7 @@ public class PlayerShoot : MonoBehaviour
 
         tempObject.transform.position = gunpoint.position;
         tempObject.transform.rotation = gunpoint.rotation;
+        tempObject.transform.RotateAround(tempObject.transform.position,Vector3.up, Random.Range(-bulletSpreadAngle, bulletSpreadAngle));
 
         tempObject.SetActive(true);
     }
@@ -97,6 +103,6 @@ public class PlayerShoot : MonoBehaviour
 
     void ScoreMultiplierChanged(int value)
     {
-        currentScoreMultiplier = value;
+        currentScoreMultiplier = value - 1;
     }
 }

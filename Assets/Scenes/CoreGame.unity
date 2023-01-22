@@ -726,6 +726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 717630251}
+  - component: {fileID: 717630252}
   m_Layer: 0
   m_Name: ===GameSystems===
   m_TagString: Untagged
@@ -753,6 +754,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717630252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717630250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef72ce71cc8f47c43b3f0355a3ddd90e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openSceneId: 0
 --- !u!1 &751872004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,6 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
+  loseMenuPanel: {fileID: 0}
 --- !u!114 &1627210793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1666,9 +1681,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnDistance: 10
-  firstSpawnDelay: 3
-  spawnRateBase: 7
+  firstSpawnDelay: 1
+  spawnRateBase: 4
   spawnAccelerationPerWave: 0.1
+  easyGroupTimings:
+    firstSpawnDelay: 1
+    spawnRateBase: 4
+    spawnAccelerationPerWave: 0.1
+    accumulatedSpawnAcceleration: 0
+    spawnTimer: 0
+  averageGroupTimings:
+    firstSpawnDelay: 30
+    spawnRateBase: 10
+    spawnAccelerationPerWave: 0.1
+    accumulatedSpawnAcceleration: 0
+    spawnTimer: 0
   easyGroups:
   - enemiesInGroup:
     - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
@@ -1680,7 +1707,25 @@ MonoBehaviour:
   - enemiesInGroup:
     - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
     - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
-  averageGroups: []
+  averageGroups:
+  - enemiesInGroup:
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+  - enemiesInGroup:
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+  - enemiesInGroup:
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+    - {fileID: 1207586695057311883, guid: d11cf959fc08e5642bbdded5794426f9, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
+    - {fileID: 2912845303231194136, guid: d9bb1235ea547fd45b5b42f50c582d48, type: 3}
   hardGroups: []
 --- !u!1 &2113676792
 GameObject:
