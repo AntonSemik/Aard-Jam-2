@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2912845302742728680}
   - component: {fileID: 2912845302742728693}
   - component: {fileID: 2912845302742728694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 2912845303231194598}
   - component: {fileID: 2912845303231194596}
   - component: {fileID: 466304510325289378}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LittleGuy
   m_TagString: Enemy
   m_Icon: {fileID: 0}

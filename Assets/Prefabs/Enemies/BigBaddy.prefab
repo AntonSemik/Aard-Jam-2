@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4040805717101206722}
   - component: {fileID: 8324274390865305404}
   - component: {fileID: 7040755105497263103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BigBaddy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 8871602210702626593}
   - component: {fileID: 5391398335475040885}
   - component: {fileID: 3283601528339650981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
