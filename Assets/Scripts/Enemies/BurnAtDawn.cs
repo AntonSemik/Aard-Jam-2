@@ -21,6 +21,7 @@ public class BurnAtDawn : MonoBehaviour
         if (!burning) return;
 
         burningDeathTimer -= Time.deltaTime;
+
         if (burningDeathTimer <= 0)
         {
             gameObject.SetActive(false);

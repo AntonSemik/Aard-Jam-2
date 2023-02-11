@@ -32,10 +32,13 @@ public class Grave : MonoBehaviour
     {
         tempObj = monsterPool.Peek();
 
+        if (tempObj == null) return;
+
         if (!tempObj.activeSelf)
         {
             tempObj = monsterPool.Dequeue();
             tempObj.SetActive(true);
+            tempObj.transform.position = transform.position;
 
             monsterPool.Enqueue(tempObj);
         }

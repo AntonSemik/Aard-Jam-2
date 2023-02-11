@@ -44,14 +44,14 @@ public class DayNightCycle : MonoBehaviour
 
     private void StartDay()
     {
-        cycleTimer = dayLengthSeconds;
+        cycleTimer = dayLengthSeconds; isNight = false;
 
         if (dayStart != null) dayStart();
     }
 
     private void StartNight()
     {
-        cycleTimer = nightLengthSeconds;
+        cycleTimer = nightLengthSeconds; isNight = true;
 
         if (nightStart != null) nightStart();
     }

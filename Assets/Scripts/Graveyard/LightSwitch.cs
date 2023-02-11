@@ -4,16 +4,8 @@ using UnityEngine;
 
 public class LightSwitch : MonoBehaviour
 {
-    [SerializeField] Light dayLight;
-    [SerializeField] Light nightLight;
-    [SerializeField] float switchTime = 0.2f;
-    [SerializeField] float maxIntencity;
-
-    Light increasingLight;
-    Light decreasingLight;
-
-    float switchTimer;
-    bool isSwitching;
+    [SerializeField] GameObject dayLight;
+    [SerializeField] GameObject nightLight;
 
     private void Start()
     {
@@ -27,34 +19,15 @@ public class LightSwitch : MonoBehaviour
         DayNightCycle.nightStart -= SwitchToNight;
     }
 
-    private void Update()
-    {
-        if (!isSwitching) return;
-
-        switchTimer -= Time.deltaTime;
-
-
-
-        if (switchTimer <= 0)
-        {
-            isSwitching = false;
-        }
-    }
-
     void SwitchToDay()
     {
-        isSwitching = true;
-
-        increasingLight = dayLight;
-        decreasingLight = nightLight;
+        dayLight.SetActive(true);
+        nightLight.SetActive(false);
     }
 
     void SwitchToNight()
     {
-        isSwitching = true;
-
-        increasingLight = nightLight;
-        decreasingLight = dayLight;
-
+        dayLight.SetActive(false);
+        nightLight.SetActive(true);
     }
 }

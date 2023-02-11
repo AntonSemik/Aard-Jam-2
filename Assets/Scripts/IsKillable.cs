@@ -12,6 +12,12 @@ public class IsKillable : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    private void OnEnable()
+    {
+        currentHealth = maxHealth;
+    }
+
+
     public void TakeDamage(int value)
     {
         currentHealth -= value;
@@ -24,6 +30,6 @@ public class IsKillable : MonoBehaviour
 
     public virtual void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

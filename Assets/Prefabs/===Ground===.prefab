@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4433627761417923424
 MeshFilter:
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30866276254835110}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &1539680660907009557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -95,7 +95,8 @@ GameObject:
   - component: {fileID: 4351886680164382667}
   - component: {fileID: 4245443315549345397}
   - component: {fileID: 6169480380787707183}
-  m_Layer: 3
+  - component: {fileID: 1333947759919333762}
+  m_Layer: 0
   m_Name: BrickWall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,6 +169,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1333947759919333762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75521918927679539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &207560370668329105
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +193,8 @@ GameObject:
   - component: {fileID: 9049218799292674335}
   - component: {fileID: 1400808953142020221}
   - component: {fileID: 7291749556000178854}
-  m_Layer: 3
+  - component: {fileID: 496041535040505142}
+  m_Layer: 0
   m_Name: BrickWall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,6 +267,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &496041535040505142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207560370668329105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &215269633661498758
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +320,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215269633661498758}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &4999815582326791720
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -347,7 +375,8 @@ GameObject:
   - component: {fileID: 3750423961528443569}
   - component: {fileID: 6224383541017930071}
   - component: {fileID: 7027296040210751407}
-  m_Layer: 3
+  - component: {fileID: 5502377416632598104}
+  m_Layer: 0
   m_Name: BrickWall (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,6 +449,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5502377416632598104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244519186921546363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &249957354135899017
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +502,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249957354135899017}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7740337008213579754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -515,7 +557,8 @@ GameObject:
   - component: {fileID: 6012569258712597464}
   - component: {fileID: 6296439731028250642}
   - component: {fileID: 1856514097959012383}
-  m_Layer: 3
+  - component: {fileID: 7483441529950547039}
+  m_Layer: 0
   m_Name: BrickWall (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,6 +631,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7483441529950547039
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336341673384274742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &370694696751815466
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,7 +684,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370694696751815466}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7548010287787137071
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -712,7 +768,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457782739383897082}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7465114224275505059
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -767,7 +823,8 @@ GameObject:
   - component: {fileID: 3825864067845817654}
   - component: {fileID: 7942329652703262341}
   - component: {fileID: 5951939746525576954}
-  m_Layer: 3
+  - component: {fileID: 6835577828042371390}
+  m_Layer: 0
   m_Name: BrickWall (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,6 +897,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6835577828042371390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460287226454965339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &468369734505801972
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +950,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468369734505801972}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &5232759599068692689
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -935,7 +1005,8 @@ GameObject:
   - component: {fileID: 4530142149796198328}
   - component: {fileID: 4691362301915521353}
   - component: {fileID: 1343720614307787420}
-  m_Layer: 3
+  - component: {fileID: 4222800270594514077}
+  m_Layer: 0
   m_Name: BrickWall (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,6 +1079,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4222800270594514077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484817138559640059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &709960851954728988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1103,8 @@ GameObject:
   - component: {fileID: 6283754017583452191}
   - component: {fileID: 2464051580898494305}
   - component: {fileID: 7491287641670233250}
-  m_Layer: 3
+  - component: {fileID: 7379660708574757759}
+  m_Layer: 0
   m_Name: BrickWall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,6 +1177,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7379660708574757759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709960851954728988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &714626489770218052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1201,8 @@ GameObject:
   - component: {fileID: 8880106673278660942}
   - component: {fileID: 3135745665110477719}
   - component: {fileID: 1300080734301638724}
-  m_Layer: 3
+  - component: {fileID: 4670706006294548430}
+  m_Layer: 0
   m_Name: BrickWall (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1176,6 +1275,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4670706006294548430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714626489770218052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &792560235436571433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1328,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792560235436571433}
-  m_Mesh: {fileID: 2805319433547093475, guid: f535836e6dda86542aaf7c360c93d91a, type: 3}
+  m_Mesh: {fileID: 2805319433547093475, guid: a322116d85db8194badd1a4c4f4fe222, type: 3}
 --- !u!23 &8461426067106290264
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1271,7 +1383,8 @@ GameObject:
   - component: {fileID: 8499782497013194200}
   - component: {fileID: 2969824189801191404}
   - component: {fileID: 8720530617377947009}
-  m_Layer: 3
+  - component: {fileID: 3678056259504911522}
+  m_Layer: 0
   m_Name: BrickWall (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,6 +1457,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3678056259504911522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829230027011541621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &948296557756192347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1481,8 @@ GameObject:
   - component: {fileID: 573730834384084828}
   - component: {fileID: 3602672886859129293}
   - component: {fileID: 3062879280902925897}
-  m_Layer: 3
+  - component: {fileID: 8762595132707367536}
+  m_Layer: 0
   m_Name: BrickWall (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1428,6 +1555,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8762595132707367536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948296557756192347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &952095949746435737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,7 +1579,8 @@ GameObject:
   - component: {fileID: 4442537214506858616}
   - component: {fileID: 2674076609343294726}
   - component: {fileID: 2825100720579713797}
-  m_Layer: 3
+  - component: {fileID: 4061652245961935055}
+  m_Layer: 0
   m_Name: BrickWall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1512,6 +1653,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4061652245961935055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952095949746435737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &962000602932111134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,7 +1677,8 @@ GameObject:
   - component: {fileID: 922923691984406200}
   - component: {fileID: 9200578154642100201}
   - component: {fileID: 4651600366346728268}
-  m_Layer: 3
+  - component: {fileID: 173737900207792877}
+  m_Layer: 0
   m_Name: BrickWall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1596,6 +1751,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &173737900207792877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962000602932111134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &962457714659475709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1804,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962457714659475709}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &8575780806916844968
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1720,7 +1888,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974481366089773276}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7030456338905659498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1775,7 +1943,8 @@ GameObject:
   - component: {fileID: 678056989978097245}
   - component: {fileID: 497364533930945976}
   - component: {fileID: 6844072334531640730}
-  m_Layer: 3
+  - component: {fileID: 2233709305186552257}
+  m_Layer: 0
   m_Name: BrickWall (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1848,6 +2017,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2233709305186552257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070775923023376315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1080029315118194209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,7 +2041,8 @@ GameObject:
   - component: {fileID: 4965724415974590490}
   - component: {fileID: 2052063862835376462}
   - component: {fileID: 771501776747266835}
-  m_Layer: 3
+  - component: {fileID: 801370924197058085}
+  m_Layer: 0
   m_Name: BrickWall (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1932,6 +2115,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &801370924197058085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080029315118194209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1110994594478183444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,7 +2175,8 @@ GameObject:
   - component: {fileID: 2440253673403775935}
   - component: {fileID: 4416037417686888300}
   - component: {fileID: 1238871331208725619}
-  m_Layer: 3
+  - component: {fileID: 5255611963134089264}
+  m_Layer: 0
   m_Name: BrickWall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2052,6 +2249,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5255611963134089264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187575030629051475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1271187745309588715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2063,7 +2273,8 @@ GameObject:
   - component: {fileID: 4658299964283019245}
   - component: {fileID: 3750695752848273700}
   - component: {fileID: 2703997776795965004}
-  m_Layer: 3
+  - component: {fileID: 4600304377525029}
+  m_Layer: 0
   m_Name: BrickWall (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2136,6 +2347,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4600304377525029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271187745309588715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1342591902868050969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +2371,8 @@ GameObject:
   - component: {fileID: 8785965490435068055}
   - component: {fileID: 6792942199398585341}
   - component: {fileID: 2244625178544931950}
-  m_Layer: 3
+  - component: {fileID: 6315591512112789572}
+  m_Layer: 0
   m_Name: BrickWall (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2220,6 +2445,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6315591512112789572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342591902868050969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1372313992629049624
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,6 +2467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1747573550765802402}
+  - component: {fileID: 3358955495167183186}
   m_Layer: 0
   m_Name: ===Bell===
   m_TagString: Untagged
@@ -2252,6 +2491,71 @@ Transform:
   m_Father: {fileID: 1110994594478183443}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3358955495167183186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372313992629049624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77fda7eafd1a0664a9369abc0eebd810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bellCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 180
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 160
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 200
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.75
+      value: 160
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 180
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  bellModel: {fileID: 2207473170098703980}
+  tollingTime: 3
 --- !u!1 &1372980147892547649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +2596,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372980147892547649}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &3817006081536719696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2347,7 +2651,8 @@ GameObject:
   - component: {fileID: 2216872390715436156}
   - component: {fileID: 2542835681576274985}
   - component: {fileID: 8288080890509638328}
-  m_Layer: 3
+  - component: {fileID: 1775372634402111475}
+  m_Layer: 0
   m_Name: BrickWall (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2420,6 +2725,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1775372634402111475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432738166975587705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1466439279329056288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,7 +2749,8 @@ GameObject:
   - component: {fileID: 929755428247333853}
   - component: {fileID: 1592377985992974370}
   - component: {fileID: 6785940435709848132}
-  m_Layer: 3
+  - component: {fileID: 1000387884375804098}
+  m_Layer: 0
   m_Name: BrickWall (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2504,6 +2823,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1000387884375804098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466439279329056288}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1496451364171984303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2847,8 @@ GameObject:
   - component: {fileID: 4578830039937662182}
   - component: {fileID: 6203856499644508708}
   - component: {fileID: 1660878117204146642}
-  m_Layer: 3
+  - component: {fileID: 9176728492465425265}
+  m_Layer: 0
   m_Name: BrickWall (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2588,6 +2921,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9176728492465425265
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496451364171984303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1555948452065311194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,7 +2945,8 @@ GameObject:
   - component: {fileID: 1405740963577971082}
   - component: {fileID: 8596744914381899753}
   - component: {fileID: 4390592137390414287}
-  m_Layer: 3
+  - component: {fileID: 5061083943069610767}
+  m_Layer: 0
   m_Name: BrickWall (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2672,6 +3019,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5061083943069610767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555948452065311194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &1559795295630285863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,7 +3043,8 @@ GameObject:
   - component: {fileID: 6428715928297961118}
   - component: {fileID: 5550722148594868864}
   - component: {fileID: 8912101756607205433}
-  m_Layer: 3
+  - component: {fileID: 8122199397957718360}
+  m_Layer: 0
   m_Name: BrickWall (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2756,6 +3117,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8122199397957718360
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559795295630285863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1625291573532523870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,7 +3170,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625291573532523870}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7842507577390764043
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2851,7 +3225,8 @@ GameObject:
   - component: {fileID: 311890057484639718}
   - component: {fileID: 5701487242940738013}
   - component: {fileID: 3091018031054065170}
-  m_Layer: 3
+  - component: {fileID: 2609307143402142306}
+  m_Layer: 0
   m_Name: BrickWall (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2924,6 +3299,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2609307143402142306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657794870929207623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1854930027067021158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,7 +3323,8 @@ GameObject:
   - component: {fileID: 6495007458269017273}
   - component: {fileID: 7078685048360440714}
   - component: {fileID: 5025340193543649973}
-  m_Layer: 3
+  - component: {fileID: 1942032102017638890}
+  m_Layer: 0
   m_Name: BrickWall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3008,6 +3397,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1942032102017638890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854930027067021158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1894407572811021189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3019,7 +3421,8 @@ GameObject:
   - component: {fileID: 4082189233022994968}
   - component: {fileID: 7822154758899029896}
   - component: {fileID: 5201018972275731045}
-  m_Layer: 3
+  - component: {fileID: 3980282203107716037}
+  m_Layer: 0
   m_Name: BrickWall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3092,6 +3495,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3980282203107716037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894407572811021189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &1944281480634138987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3262,7 +3678,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980068873487027647}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &924332462712914834
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3317,7 +3733,8 @@ GameObject:
   - component: {fileID: 6143288882516753174}
   - component: {fileID: 1302492018628832261}
   - component: {fileID: 5979779517012012107}
-  m_Layer: 3
+  - component: {fileID: 829646629289269153}
+  m_Layer: 0
   m_Name: BrickWall (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3390,6 +3807,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &829646629289269153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063951827255084212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2106819327794515941
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,7 +3860,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106819327794515941}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7450343566593122992
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3485,7 +3915,8 @@ GameObject:
   - component: {fileID: 7315633628858944973}
   - component: {fileID: 378304785356702463}
   - component: {fileID: 8900637970604385739}
-  m_Layer: 3
+  - component: {fileID: 7088191409119329349}
+  m_Layer: 0
   m_Name: BrickWall (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3558,6 +3989,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7088191409119329349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130900556309855576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2191669360134941705
 GameObject:
   m_ObjectHideFlags: 0
@@ -3569,7 +4013,8 @@ GameObject:
   - component: {fileID: 6726302339422255426}
   - component: {fileID: 6160900970814129992}
   - component: {fileID: 2161188719647424804}
-  m_Layer: 3
+  - component: {fileID: 4667118545860189690}
+  m_Layer: 0
   m_Name: BrickWall (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3642,6 +4087,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4667118545860189690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2191669360134941705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &2205973764442421725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3673,7 +4131,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 0
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7280226894819830613
 MeshFilter:
@@ -3682,7 +4140,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2205973764442421725}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &4180145132572647259
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3737,7 +4195,8 @@ GameObject:
   - component: {fileID: 7077710432019529812}
   - component: {fileID: 6131396960248754326}
   - component: {fileID: 7654989791726213851}
-  m_Layer: 3
+  - component: {fileID: 7090849057700959854}
+  m_Layer: 0
   m_Name: BrickWall (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3810,6 +4269,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7090849057700959854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221997402742454464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &2277628627094958827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3821,7 +4293,8 @@ GameObject:
   - component: {fileID: 6781335607566170686}
   - component: {fileID: 1617752656849049463}
   - component: {fileID: 7128057263714866617}
-  m_Layer: 3
+  - component: {fileID: 2158292302698388687}
+  m_Layer: 0
   m_Name: BrickWall (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3894,6 +4367,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2158292302698388687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277628627094958827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &2328110433996797251
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,6 +4391,7 @@ GameObject:
   - component: {fileID: 3688899088780283344}
   - component: {fileID: 1663649832370963355}
   - component: {fileID: 6574381985561777431}
+  - component: {fileID: 8597158970288619439}
   m_Layer: 0
   m_Name: cryptSmall
   m_TagString: Untagged
@@ -3934,7 +4421,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2328110433996797251}
-  m_Mesh: {fileID: -4128221172321285728, guid: 06f2b2b6b51891c449da9a0b71263928, type: 3}
+  m_Mesh: {fileID: -4128221172321285728, guid: 19daf84762d49444696cf421def7fd9a, type: 3}
 --- !u!23 &6574381985561777431
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3979,6 +4466,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8597158970288619439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2328110433996797251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1000001, y: 0.99999994, z: 1.1000001}
+  m_Center: {x: 0, y: 0.49999997, z: 0}
 --- !u!1 &2478968955821573757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,7 +4519,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2478968955821573757}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &822480505608711881
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4074,7 +4574,8 @@ GameObject:
   - component: {fileID: 7265492296955578016}
   - component: {fileID: 5134771564465751343}
   - component: {fileID: 2010471880892616348}
-  m_Layer: 3
+  - component: {fileID: 6396066049237412628}
+  m_Layer: 0
   m_Name: BrickWall (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4147,6 +4648,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6396066049237412628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2518193649310100356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2534666605235235608
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,7 +4672,8 @@ GameObject:
   - component: {fileID: 7015871206487387951}
   - component: {fileID: 645401632827574512}
   - component: {fileID: 2053548408669160658}
-  m_Layer: 3
+  - component: {fileID: 6714511785446366807}
+  m_Layer: 0
   m_Name: BrickWall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4231,6 +4746,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6714511785446366807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534666605235235608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2572954886884151396
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,7 +4770,8 @@ GameObject:
   - component: {fileID: 4697613663128716789}
   - component: {fileID: 6213038060291393889}
   - component: {fileID: 6082454962835783514}
-  m_Layer: 3
+  - component: {fileID: 3767577484243814716}
+  m_Layer: 0
   m_Name: BrickWall (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4315,6 +4844,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3767577484243814716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2572954886884151396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &2597609633771897103
 GameObject:
   m_ObjectHideFlags: 0
@@ -4346,7 +4888,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1866267543464709065
 MeshFilter:
@@ -4355,7 +4897,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2597609633771897103}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &3548612082604213948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4410,6 +4952,7 @@ GameObject:
   - component: {fileID: 2186541178926080598}
   - component: {fileID: 2650245762378893478}
   - component: {fileID: 7867698035880597452}
+  - component: {fileID: 759862658041324854}
   m_Layer: 0
   m_Name: stoneWall (1)
   m_TagString: Untagged
@@ -4439,7 +4982,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2626166879404241309}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &7867698035880597452
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4483,6 +5026,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &759862658041324854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2626166879404241309}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.65191394, z: 0.099999994}
+  m_Center: {x: 0, y: 0.32595697, z: -0.45}
 --- !u!1 &2729797414967063571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,7 +5050,8 @@ GameObject:
   - component: {fileID: 8280524234581877387}
   - component: {fileID: 6958114419534382239}
   - component: {fileID: 5382813258943474564}
-  m_Layer: 3
+  - component: {fileID: 9173715740301240572}
+  m_Layer: 0
   m_Name: BrickWall (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4567,6 +5124,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9173715740301240572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2729797414967063571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2733318203663130516
 GameObject:
   m_ObjectHideFlags: 0
@@ -4578,7 +5148,8 @@ GameObject:
   - component: {fileID: 8934618407129125523}
   - component: {fileID: 6391923157376730883}
   - component: {fileID: 7051705234607909806}
-  m_Layer: 3
+  - component: {fileID: 986477865369693856}
+  m_Layer: 0
   m_Name: BrickWall (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4651,6 +5222,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &986477865369693856
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2733318203663130516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &2741277861696192326
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,7 +5275,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2741277861696192326}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &6652631064872473107
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4775,7 +5359,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2744950421131530684}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7356842813890839683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4830,7 +5414,8 @@ GameObject:
   - component: {fileID: 6524086866121851867}
   - component: {fileID: 4132406254825180645}
   - component: {fileID: 3262724809784539717}
-  m_Layer: 3
+  - component: {fileID: 4647941165031125882}
+  m_Layer: 0
   m_Name: BrickWall (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4903,6 +5488,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4647941165031125882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2844750498327824430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3140993309788372341
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,7 +5541,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3140993309788372341}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7825538668680007922
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5027,7 +5625,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3155255589414250969}
-  m_Mesh: {fileID: 234363408572801566, guid: 5164e26b8731a0e41b3a63651f87515f, type: 3}
+  m_Mesh: {fileID: 234363408572801566, guid: 9b66bb5eba1f31f4e8b81345d332de54, type: 3}
 --- !u!23 &4597885181197862965
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5082,7 +5680,8 @@ GameObject:
   - component: {fileID: 7461464255029675850}
   - component: {fileID: 4955191640000925312}
   - component: {fileID: 8981398565475247457}
-  m_Layer: 3
+  - component: {fileID: 6553175675859865315}
+  m_Layer: 0
   m_Name: BrickWall (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5155,6 +5754,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6553175675859865315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255571218926676785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &3288294261166173587
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,7 +5807,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3288294261166173587}
-  m_Mesh: {fileID: 2805319433547093475, guid: f535836e6dda86542aaf7c360c93d91a, type: 3}
+  m_Mesh: {fileID: 2805319433547093475, guid: a322116d85db8194badd1a4c4f4fe222, type: 3}
 --- !u!23 &4974505229847802568
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5250,7 +5862,8 @@ GameObject:
   - component: {fileID: 6272526750454767601}
   - component: {fileID: 2833036876658068981}
   - component: {fileID: 5196904419540025772}
-  m_Layer: 3
+  - component: {fileID: 4315785288603052811}
+  m_Layer: 0
   m_Name: BrickWall (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5323,6 +5936,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4315785288603052811
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370308204530051947}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3456837807030591991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5363,7 +5989,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3456837807030591991}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &821569386820863857
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5418,7 +6044,8 @@ GameObject:
   - component: {fileID: 1613241109153891844}
   - component: {fileID: 8141249299797265926}
   - component: {fileID: 1418534358113148396}
-  m_Layer: 3
+  - component: {fileID: 2510637937415140731}
+  m_Layer: 0
   m_Name: BrickWall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5491,6 +6118,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2510637937415140731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481868241378581009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3630620058193365515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,7 +6171,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3630620058193365515}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7408989088198596299
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5586,7 +6226,8 @@ GameObject:
   - component: {fileID: 921559512601467390}
   - component: {fileID: 8425351010462801349}
   - component: {fileID: 1927678704679036638}
-  m_Layer: 3
+  - component: {fileID: 6644163662433666641}
+  m_Layer: 0
   m_Name: BrickWall (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5659,6 +6300,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6644163662433666641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3650087563158453326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &3671344670858799965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5670,7 +6324,8 @@ GameObject:
   - component: {fileID: 7204786604759127249}
   - component: {fileID: 4077197192160726130}
   - component: {fileID: 745068151657660814}
-  m_Layer: 3
+  - component: {fileID: 7923508160202644862}
+  m_Layer: 0
   m_Name: BrickWall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5743,6 +6398,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7923508160202644862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3671344670858799965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3676356760154146872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,7 +6422,8 @@ GameObject:
   - component: {fileID: 6191321330410678697}
   - component: {fileID: 8549182297096176420}
   - component: {fileID: 8716634565991578210}
-  m_Layer: 3
+  - component: {fileID: 5878010835134895247}
+  m_Layer: 0
   m_Name: BrickWall (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5827,6 +6496,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5878010835134895247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3676356760154146872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3785670640636641154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5838,7 +6520,8 @@ GameObject:
   - component: {fileID: 1934216903389097492}
   - component: {fileID: 7664547856197511884}
   - component: {fileID: 797947294252404526}
-  m_Layer: 3
+  - component: {fileID: 1886038585479782729}
+  m_Layer: 0
   m_Name: BrickWall (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5911,6 +6594,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1886038585479782729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785670640636641154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &3791051968042683485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5922,7 +6618,8 @@ GameObject:
   - component: {fileID: 7151012737507340299}
   - component: {fileID: 2524938459351353918}
   - component: {fileID: 2517287577932706953}
-  m_Layer: 3
+  - component: {fileID: 1178162950900215190}
+  m_Layer: 0
   m_Name: BrickWall (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5995,6 +6692,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1178162950900215190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3791051968042683485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &3892848878356709539
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,7 +6745,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3892848878356709539}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &8414062190876095984
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6090,7 +6800,8 @@ GameObject:
   - component: {fileID: 3465153523886176650}
   - component: {fileID: 387962958288265757}
   - component: {fileID: 5750306295304577153}
-  m_Layer: 3
+  - component: {fileID: 6464394787221056005}
+  m_Layer: 0
   m_Name: BrickWall (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6163,6 +6874,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6464394787221056005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4079637420982316533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &4179035767745715247
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,7 +6898,8 @@ GameObject:
   - component: {fileID: 1818237141240506738}
   - component: {fileID: 2839712265661811812}
   - component: {fileID: 6881563971314388739}
-  m_Layer: 3
+  - component: {fileID: 2575428575056291869}
+  m_Layer: 0
   m_Name: BrickWall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6247,6 +6972,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2575428575056291869
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4179035767745715247}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &4235448711857694318
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,7 +7016,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &517234914777410728
 MeshFilter:
@@ -6287,7 +7025,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4235448711857694318}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &3455657259700986333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6342,7 +7080,8 @@ GameObject:
   - component: {fileID: 3342617809644740557}
   - component: {fileID: 409286656296729528}
   - component: {fileID: 3162089536564393896}
-  m_Layer: 3
+  - component: {fileID: 7984165601503360802}
+  m_Layer: 0
   m_Name: BrickWall (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6415,6 +7154,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7984165601503360802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4257216675856340034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &4316878830514293706
 GameObject:
   m_ObjectHideFlags: 0
@@ -6455,7 +7207,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4316878830514293706}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &4406320706088582794
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6510,7 +7262,8 @@ GameObject:
   - component: {fileID: 3446352085873249640}
   - component: {fileID: 1044611284067746299}
   - component: {fileID: 1399958936601175476}
-  m_Layer: 3
+  - component: {fileID: 552590930086353437}
+  m_Layer: 0
   m_Name: BrickWall (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6583,6 +7336,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &552590930086353437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317705896854024070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &4346908762882893477
 GameObject:
   m_ObjectHideFlags: 0
@@ -6594,7 +7360,8 @@ GameObject:
   - component: {fileID: 773642606789267535}
   - component: {fileID: 4516663551066910511}
   - component: {fileID: 3287877093608838488}
-  m_Layer: 3
+  - component: {fileID: 3263301752439640536}
+  m_Layer: 0
   m_Name: BrickWall (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6667,6 +7434,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3263301752439640536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4346908762882893477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &4427912877015618609
 GameObject:
   m_ObjectHideFlags: 0
@@ -6678,7 +7458,8 @@ GameObject:
   - component: {fileID: 3922096070343391674}
   - component: {fileID: 2470562481313431128}
   - component: {fileID: 8114430818450669654}
-  m_Layer: 3
+  - component: {fileID: 1311086923934654565}
+  m_Layer: 0
   m_Name: BrickWall (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6751,6 +7532,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1311086923934654565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427912877015618609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &4433509345674195117
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,7 +7585,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4433509345674195117}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &5178823215781256696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6846,7 +7640,8 @@ GameObject:
   - component: {fileID: 6080917471373652789}
   - component: {fileID: 6741754426149582669}
   - component: {fileID: 3434078027394760158}
-  m_Layer: 3
+  - component: {fileID: 7127934401743551084}
+  m_Layer: 0
   m_Name: BrickWall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6919,6 +7714,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7127934401743551084
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4442699046923271820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &4547555818542305463
 GameObject:
   m_ObjectHideFlags: 0
@@ -6959,7 +7767,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4547555818542305463}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &8192739482092581839
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7043,7 +7851,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4552988293080119047}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &1995266229311672705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7127,7 +7935,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4582450566749824446}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &7497164580179286015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7277,7 +8085,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4665211897613759983}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &6598766264147309773
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7332,7 +8140,8 @@ GameObject:
   - component: {fileID: 9120483574029814899}
   - component: {fileID: 6429498468845383471}
   - component: {fileID: 3618301636198399627}
-  m_Layer: 3
+  - component: {fileID: 1899707096160394052}
+  m_Layer: 0
   m_Name: BrickWall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7405,6 +8214,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1899707096160394052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4772793562822115538}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5047405967731260395
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,7 +8238,8 @@ GameObject:
   - component: {fileID: 5625303892440096895}
   - component: {fileID: 2267087764123017705}
   - component: {fileID: 1276931787731454114}
-  m_Layer: 3
+  - component: {fileID: 7204989546830715570}
+  m_Layer: 0
   m_Name: BrickWall (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7489,6 +8312,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7204989546830715570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5047405967731260395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5075466049009890276
 GameObject:
   m_ObjectHideFlags: 0
@@ -7500,7 +8336,8 @@ GameObject:
   - component: {fileID: 2742210492852163417}
   - component: {fileID: 3382802478696129479}
   - component: {fileID: 2588221558405463412}
-  m_Layer: 3
+  - component: {fileID: 450111156584361097}
+  m_Layer: 0
   m_Name: BrickWall (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7573,6 +8410,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &450111156584361097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5075466049009890276}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5130458425259786049
 GameObject:
   m_ObjectHideFlags: 0
@@ -7613,7 +8463,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5130458425259786049}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &602415151482830827
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7668,7 +8518,8 @@ GameObject:
   - component: {fileID: 2525035793254321731}
   - component: {fileID: 8386964415240165468}
   - component: {fileID: 7823419324984206762}
-  m_Layer: 3
+  - component: {fileID: 6690888030492821522}
+  m_Layer: 0
   m_Name: BrickWall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7741,6 +8592,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6690888030492821522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5136837669662418047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &5169127117699708136
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,7 +8616,8 @@ GameObject:
   - component: {fileID: 4165946512213104019}
   - component: {fileID: 8775327886852354781}
   - component: {fileID: 1283850959054174657}
-  m_Layer: 3
+  - component: {fileID: 6081004347331807345}
+  m_Layer: 0
   m_Name: BrickWall (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7825,6 +8690,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6081004347331807345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169127117699708136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &5387930820336571468
 GameObject:
   m_ObjectHideFlags: 0
@@ -7836,7 +8714,8 @@ GameObject:
   - component: {fileID: 7946729538361536589}
   - component: {fileID: 4049242695969261497}
   - component: {fileID: 2004407768492964817}
-  m_Layer: 3
+  - component: {fileID: 43427229502995172}
+  m_Layer: 0
   m_Name: BrickWall (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7909,6 +8788,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &43427229502995172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5387930820336571468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5401738478263651272
 GameObject:
   m_ObjectHideFlags: 0
@@ -7955,7 +8847,8 @@ GameObject:
   - component: {fileID: 7003313387709376622}
   - component: {fileID: 8288652948269921285}
   - component: {fileID: 2264154963166317482}
-  m_Layer: 3
+  - component: {fileID: 9149524608619839864}
+  m_Layer: 0
   m_Name: BrickWall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8028,6 +8921,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9149524608619839864
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498713901815141449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5598908919518895163
 GameObject:
   m_ObjectHideFlags: 0
@@ -8059,7 +8965,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8095662045634352893
 MeshFilter:
@@ -8068,7 +8974,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5598908919518895163}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &6377363355075828616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8123,7 +9029,8 @@ GameObject:
   - component: {fileID: 1124552896870079898}
   - component: {fileID: 5222970121262838246}
   - component: {fileID: 5234195200771846990}
-  m_Layer: 3
+  - component: {fileID: 1725539136688319029}
+  m_Layer: 0
   m_Name: BrickWall (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8196,6 +9103,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1725539136688319029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5609539556738712485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &5659597371500411436
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,7 +9127,8 @@ GameObject:
   - component: {fileID: 4346829694968703185}
   - component: {fileID: 2506013541373816103}
   - component: {fileID: 8341830732134932563}
-  m_Layer: 3
+  - component: {fileID: 9132861019341066694}
+  m_Layer: 0
   m_Name: BrickWall (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8280,6 +9201,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9132861019341066694
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5659597371500411436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5690919976454136030
 GameObject:
   m_ObjectHideFlags: 0
@@ -8311,7 +9245,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8291397198557243928
 MeshFilter:
@@ -8320,7 +9254,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5690919976454136030}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &6613982732125661037
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8375,7 +9309,8 @@ GameObject:
   - component: {fileID: 2110105870346575644}
   - component: {fileID: 6732031661726315878}
   - component: {fileID: 4332730587888736932}
-  m_Layer: 3
+  - component: {fileID: 8823719755048532355}
+  m_Layer: 0
   m_Name: BrickWall (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8448,6 +9383,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8823719755048532355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5723313958080821387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5740684652359376056
 GameObject:
   m_ObjectHideFlags: 0
@@ -8459,7 +9407,8 @@ GameObject:
   - component: {fileID: 8068933753024040620}
   - component: {fileID: 5045949118304765081}
   - component: {fileID: 3774641466264800612}
-  m_Layer: 3
+  - component: {fileID: 5505257081384928610}
+  m_Layer: 0
   m_Name: BrickWall (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8532,6 +9481,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5505257081384928610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740684652359376056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5768277954813514620
 GameObject:
   m_ObjectHideFlags: 0
@@ -8670,7 +9632,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5856898495362093895}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &4131641775178209349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8725,7 +9687,8 @@ GameObject:
   - component: {fileID: 2137069236777432548}
   - component: {fileID: 3259298730584817245}
   - component: {fileID: 1386118683334597519}
-  m_Layer: 3
+  - component: {fileID: 654872190981639756}
+  m_Layer: 0
   m_Name: BrickWall (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8798,6 +9761,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &654872190981639756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900369011890629070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &5908094355337359249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8826,7 +9802,6 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2566978300003014132}
   - {fileID: 8615056464309837243}
   - {fileID: 4201908463893946406}
   - {fileID: 7388710201366176311}
@@ -8835,6 +9810,7 @@ Transform:
   - {fileID: 8414888337262207326}
   - {fileID: 2175544250709901455}
   - {fileID: 7398547527410942548}
+  - {fileID: 2566978300003014132}
   - {fileID: 1367875964461764062}
   - {fileID: 7172603639275078348}
   - {fileID: 7625411653574450373}
@@ -8893,7 +9869,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5979823994226817266}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &8530785914065444468
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8948,7 +9924,8 @@ GameObject:
   - component: {fileID: 6218422549099690718}
   - component: {fileID: 569856744012619390}
   - component: {fileID: 5472235781442077081}
-  m_Layer: 3
+  - component: {fileID: 5647855432796552761}
+  m_Layer: 0
   m_Name: BrickWall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9021,6 +9998,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5647855432796552761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5983389073149740047}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &5998426712592742454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9032,7 +10022,8 @@ GameObject:
   - component: {fileID: 6237132743878990721}
   - component: {fileID: 7624549208905420380}
   - component: {fileID: 4800734526873270300}
-  m_Layer: 3
+  - component: {fileID: 6531070528677521591}
+  m_Layer: 0
   m_Name: BrickWall (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9105,6 +10096,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6531070528677521591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998426712592742454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6050790472722286336
 GameObject:
   m_ObjectHideFlags: 0
@@ -9116,6 +10120,7 @@ GameObject:
   - component: {fileID: 8709631732819323721}
   - component: {fileID: 4723132473285617347}
   - component: {fileID: 6846314225832736265}
+  - component: {fileID: 4383497829159425646}
   m_Layer: 0
   m_Name: cryptSmall (1)
   m_TagString: Untagged
@@ -9145,7 +10150,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6050790472722286336}
-  m_Mesh: {fileID: -4128221172321285728, guid: 06f2b2b6b51891c449da9a0b71263928, type: 3}
+  m_Mesh: {fileID: -4128221172321285728, guid: 19daf84762d49444696cf421def7fd9a, type: 3}
 --- !u!23 &6846314225832736265
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9190,6 +10195,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4383497829159425646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050790472722286336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1000001, y: 0.99999994, z: 1.1000001}
+  m_Center: {x: 0, y: 0.49999997, z: 0}
 --- !u!1 &6084297827508124568
 GameObject:
   m_ObjectHideFlags: 0
@@ -9201,7 +10219,8 @@ GameObject:
   - component: {fileID: 5710272724434148364}
   - component: {fileID: 8403525298720175372}
   - component: {fileID: 8865699928772868045}
-  m_Layer: 3
+  - component: {fileID: 3807202979306334493}
+  m_Layer: 0
   m_Name: BrickWall (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9274,6 +10293,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3807202979306334493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6084297827508124568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6111502504453140716
 GameObject:
   m_ObjectHideFlags: 0
@@ -9314,7 +10346,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6111502504453140716}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &8092829508470511210
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9369,7 +10401,8 @@ GameObject:
   - component: {fileID: 7358417931620947844}
   - component: {fileID: 207852979076220774}
   - component: {fileID: 8323275743657722739}
-  m_Layer: 3
+  - component: {fileID: 4652021310188987437}
+  m_Layer: 0
   m_Name: BrickWall (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9442,6 +10475,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4652021310188987437
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6116940715060662765}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &6136945826547843338
 GameObject:
   m_ObjectHideFlags: 0
@@ -9453,7 +10499,8 @@ GameObject:
   - component: {fileID: 7841787414085614163}
   - component: {fileID: 569584459206867179}
   - component: {fileID: 3582925331759189725}
-  m_Layer: 3
+  - component: {fileID: 7193043566716045383}
+  m_Layer: 0
   m_Name: BrickWall (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9526,6 +10573,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7193043566716045383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6136945826547843338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6159260303160965762
 GameObject:
   m_ObjectHideFlags: 0
@@ -9566,7 +10626,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6159260303160965762}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &6511377548121387797
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9650,7 +10710,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6315479735737312698}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &5098019968697472762
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9734,7 +10794,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6318710117241327403}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &3308048250966041214
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9789,7 +10849,8 @@ GameObject:
   - component: {fileID: 8105594916547562829}
   - component: {fileID: 4331194415335662344}
   - component: {fileID: 1552476459040512772}
-  m_Layer: 3
+  - component: {fileID: 4511056103749049136}
+  m_Layer: 0
   m_Name: BrickWall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9862,6 +10923,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4511056103749049136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6327203487030092358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &6337429036311531185
 GameObject:
   m_ObjectHideFlags: 0
@@ -9902,7 +10976,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6337429036311531185}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &2966491793924590344
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9957,7 +11031,8 @@ GameObject:
   - component: {fileID: 5837258656285357153}
   - component: {fileID: 8825085217713678390}
   - component: {fileID: 5423088374803697233}
-  m_Layer: 3
+  - component: {fileID: 7686678378926841441}
+  m_Layer: 0
   m_Name: BrickWall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10030,6 +11105,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7686678378926841441
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365811683878345191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6458632382159676031
 GameObject:
   m_ObjectHideFlags: 0
@@ -10041,7 +11129,8 @@ GameObject:
   - component: {fileID: 5653044175177273026}
   - component: {fileID: 4405214047677288087}
   - component: {fileID: 8417431836355299246}
-  m_Layer: 3
+  - component: {fileID: 5629803703501606597}
+  m_Layer: 0
   m_Name: BrickWall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10114,6 +11203,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5629803703501606597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6458632382159676031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6463149978167243123
 GameObject:
   m_ObjectHideFlags: 0
@@ -10145,7 +11247,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7231506577061985205
 MeshFilter:
@@ -10154,7 +11256,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6463149978167243123}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &5512999099452405440
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10238,7 +11340,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6463178673399470452}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &9020209123771482098
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10293,7 +11395,8 @@ GameObject:
   - component: {fileID: 1373573670286173446}
   - component: {fileID: 5908939475525562824}
   - component: {fileID: 673178947674180630}
-  m_Layer: 3
+  - component: {fileID: 5126097000388171284}
+  m_Layer: 0
   m_Name: BrickWall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10366,6 +11469,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5126097000388171284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487809856443910751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &6670233521593959380
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,7 +11513,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7024399701253785874
 MeshFilter:
@@ -10406,7 +11522,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6670233521593959380}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &5306029662698275943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10481,7 +11597,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2688005085391382264}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7016253414946859377
 MeshFilter:
@@ -10490,7 +11606,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6680101643059602359}
-  m_Mesh: {fileID: 5226711796371617303, guid: 65b07c37c79ff804da8d6a72dfddd615, type: 3}
+  m_Mesh: {fileID: 5226711796371617303, guid: b0efe66460c98324ea1c2ab9991c960c, type: 3}
 --- !u!23 &5298448525267428356
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10574,7 +11690,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6811898226708410085}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &8797592696423745635
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10629,7 +11745,8 @@ GameObject:
   - component: {fileID: 1373716154895019880}
   - component: {fileID: 6623240510472541393}
   - component: {fileID: 3489717676999888438}
-  m_Layer: 3
+  - component: {fileID: 6041862877867675075}
+  m_Layer: 0
   m_Name: BrickWall (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10702,6 +11819,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6041862877867675075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6928265607163438366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7038217032242472396
 GameObject:
   m_ObjectHideFlags: 0
@@ -10713,7 +11843,8 @@ GameObject:
   - component: {fileID: 6294432894218026304}
   - component: {fileID: 3883706072690505133}
   - component: {fileID: 3417054564596348309}
-  m_Layer: 3
+  - component: {fileID: 200011448962202136}
+  m_Layer: 0
   m_Name: BrickWall (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10786,6 +11917,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &200011448962202136
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7038217032242472396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7089960177805074768
 GameObject:
   m_ObjectHideFlags: 0
@@ -10797,7 +11941,8 @@ GameObject:
   - component: {fileID: 7470339147169935247}
   - component: {fileID: 3758744004885691445}
   - component: {fileID: 4902809697810621992}
-  m_Layer: 3
+  - component: {fileID: 2050020361657117516}
+  m_Layer: 0
   m_Name: BrickWall (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10870,6 +12015,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2050020361657117516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089960177805074768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7125561005423329308
 GameObject:
   m_ObjectHideFlags: 0
@@ -10910,7 +12068,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7125561005423329308}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &1782034567609904457
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10994,7 +12152,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7127598091625470658}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &6642201865191235754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11049,7 +12207,8 @@ GameObject:
   - component: {fileID: 6643786740933560761}
   - component: {fileID: 9041962889156022817}
   - component: {fileID: 2835837557436069928}
-  m_Layer: 3
+  - component: {fileID: 2675966340516551945}
+  m_Layer: 0
   m_Name: BrickWall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11122,6 +12281,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2675966340516551945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162362799981202059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7172355494960297151
 GameObject:
   m_ObjectHideFlags: 0
@@ -11133,7 +12305,8 @@ GameObject:
   - component: {fileID: 2149009651469493879}
   - component: {fileID: 8575835769133016930}
   - component: {fileID: 8403045785557796708}
-  m_Layer: 3
+  - component: {fileID: 1046905555377414657}
+  m_Layer: 0
   m_Name: BrickWall (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11206,6 +12379,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1046905555377414657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7172355494960297151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7177954073314673283
 GameObject:
   m_ObjectHideFlags: 0
@@ -11217,7 +12403,8 @@ GameObject:
   - component: {fileID: 2721812022067706298}
   - component: {fileID: 726542102553923754}
   - component: {fileID: 7662290017850425013}
-  m_Layer: 3
+  - component: {fileID: 6296335250495147470}
+  m_Layer: 0
   m_Name: BrickWall (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11290,6 +12477,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6296335250495147470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7177954073314673283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7365026619857488545
 GameObject:
   m_ObjectHideFlags: 0
@@ -11301,7 +12501,8 @@ GameObject:
   - component: {fileID: 5405845604808084582}
   - component: {fileID: 7019314822915416298}
   - component: {fileID: 6501982106892802843}
-  m_Layer: 3
+  - component: {fileID: 4974174726243452198}
+  m_Layer: 0
   m_Name: BrickWall (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11374,6 +12575,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4974174726243452198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7365026619857488545}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7402907833001247007
 GameObject:
   m_ObjectHideFlags: 0
@@ -11385,7 +12599,8 @@ GameObject:
   - component: {fileID: 4120640020584708632}
   - component: {fileID: 5136272759539802834}
   - component: {fileID: 6281793046080646393}
-  m_Layer: 3
+  - component: {fileID: 2892052497580671355}
+  m_Layer: 0
   m_Name: BrickWall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11458,6 +12673,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2892052497580671355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402907833001247007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7606097734939752709
 GameObject:
   m_ObjectHideFlags: 0
@@ -11469,7 +12697,8 @@ GameObject:
   - component: {fileID: 8244200317438116093}
   - component: {fileID: 5284685929575236964}
   - component: {fileID: 5026930897264777065}
-  m_Layer: 3
+  - component: {fileID: 733128105226826486}
+  m_Layer: 0
   m_Name: BrickWall (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11542,6 +12771,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &733128105226826486
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606097734939752709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7634994430822747284
 GameObject:
   m_ObjectHideFlags: 0
@@ -11582,7 +12824,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7634994430822747284}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &1454529978213051643
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11637,7 +12879,8 @@ GameObject:
   - component: {fileID: 4381015181064892625}
   - component: {fileID: 2285505165089980888}
   - component: {fileID: 8566363597727154619}
-  m_Layer: 3
+  - component: {fileID: 8947087223856729225}
+  m_Layer: 0
   m_Name: BrickWall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11710,6 +12953,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8947087223856729225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7665242221951534983}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7702687599761982236
 GameObject:
   m_ObjectHideFlags: 0
@@ -11750,7 +13006,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7702687599761982236}
-  m_Mesh: {fileID: -1914865045506676060, guid: 8f325faadbf16f14fa79babeb972c42e, type: 3}
+  m_Mesh: {fileID: -1914865045506676060, guid: 8a57e4c19a4f5f54ead513b7066a7eb7, type: 3}
 --- !u!23 &5655002865507722650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11834,7 +13090,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7724150547524181664}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &5763321816551360424
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11889,7 +13145,8 @@ GameObject:
   - component: {fileID: 5079961741690224148}
   - component: {fileID: 8280324409238950072}
   - component: {fileID: 7411148939309336544}
-  m_Layer: 3
+  - component: {fileID: 7295034791475611890}
+  m_Layer: 0
   m_Name: BrickWall (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11962,6 +13219,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7295034791475611890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7769545301406808112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7842592924289114775
 GameObject:
   m_ObjectHideFlags: 0
@@ -12002,7 +13272,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7842592924289114775}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &9200312206549071765
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12057,7 +13327,8 @@ GameObject:
   - component: {fileID: 3702976724344484572}
   - component: {fileID: 1182244596897126827}
   - component: {fileID: 6668762620454698074}
-  m_Layer: 3
+  - component: {fileID: 2187237842195680000}
+  m_Layer: 0
   m_Name: BrickWall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12130,6 +13401,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2187237842195680000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852808750290575380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &7922550648426202365
 GameObject:
   m_ObjectHideFlags: 0
@@ -12141,7 +13425,8 @@ GameObject:
   - component: {fileID: 6646731422061704179}
   - component: {fileID: 5228560649682823733}
   - component: {fileID: 4690664611375861991}
-  m_Layer: 3
+  - component: {fileID: 5049651006824397539}
+  m_Layer: 0
   m_Name: BrickWall (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12214,6 +13499,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5049651006824397539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7922550648426202365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7946424462000600174
 GameObject:
   m_ObjectHideFlags: 0
@@ -12258,7 +13556,8 @@ GameObject:
   - component: {fileID: 5976489233796848865}
   - component: {fileID: 751754315496099676}
   - component: {fileID: 8191317915630874046}
-  m_Layer: 3
+  - component: {fileID: 7765337439236104368}
+  m_Layer: 0
   m_Name: BrickWall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12331,6 +13630,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7765337439236104368
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957754381741479960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &7963829357209813694
 GameObject:
   m_ObjectHideFlags: 0
@@ -12371,7 +13683,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7963829357209813694}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &8070213350034660036
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12426,7 +13738,8 @@ GameObject:
   - component: {fileID: 1944343777367901258}
   - component: {fileID: 682187889631505422}
   - component: {fileID: 2891613294414753954}
-  m_Layer: 3
+  - component: {fileID: 4926105143257689104}
+  m_Layer: 0
   m_Name: BrickWall (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12499,6 +13812,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4926105143257689104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8019129370053733704}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &8132266105836881222
 GameObject:
   m_ObjectHideFlags: 0
@@ -12510,7 +13836,8 @@ GameObject:
   - component: {fileID: 8534213242399780979}
   - component: {fileID: 7078710482770508249}
   - component: {fileID: 8923434085969604836}
-  m_Layer: 3
+  - component: {fileID: 6931606443502554861}
+  m_Layer: 0
   m_Name: BrickWall (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12583,6 +13910,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6931606443502554861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8132266105836881222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8185438234474666363
 GameObject:
   m_ObjectHideFlags: 0
@@ -12594,7 +13934,8 @@ GameObject:
   - component: {fileID: 225002090267349327}
   - component: {fileID: 3860597376636487572}
   - component: {fileID: 7939315837920868435}
-  m_Layer: 3
+  - component: {fileID: 6929941941016514354}
+  m_Layer: 0
   m_Name: BrickWall (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12667,6 +14008,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6929941941016514354
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8185438234474666363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1 &8196514345272594376
 GameObject:
   m_ObjectHideFlags: 0
@@ -12678,7 +14032,8 @@ GameObject:
   - component: {fileID: 5418178702439279341}
   - component: {fileID: 4015133419377734690}
   - component: {fileID: 2403307178658687073}
-  m_Layer: 3
+  - component: {fileID: 8865330691649900216}
+  m_Layer: 0
   m_Name: BrickWall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12751,6 +14106,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8865330691649900216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196514345272594376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8390963118385669009
 GameObject:
   m_ObjectHideFlags: 0
@@ -12762,6 +14130,7 @@ GameObject:
   - component: {fileID: 6297318966833243417}
   - component: {fileID: 3059647153755405571}
   - component: {fileID: 3525189797126173397}
+  - component: {fileID: 4234635699938269755}
   m_Layer: 0
   m_Name: cryptLarge
   m_TagString: Untagged
@@ -12791,7 +14160,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8390963118385669009}
-  m_Mesh: {fileID: -7120979574654736909, guid: e634f5867f1c7d44d97cca727206e83a, type: 3}
+  m_Mesh: {fileID: -7120979574654736909, guid: de648abef4cc13c4ab6159aca0d1c2ba, type: 3}
 --- !u!23 &3525189797126173397
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12836,6 +14205,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4234635699938269755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390963118385669009}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0999999, y: 0.99999994, z: 2.1}
+  m_Center: {x: 0, y: 0.49999997, z: 0}
 --- !u!1 &8403105534651134091
 GameObject:
   m_ObjectHideFlags: 0
@@ -12847,7 +14229,8 @@ GameObject:
   - component: {fileID: 1557251541152498916}
   - component: {fileID: 3660142798421468417}
   - component: {fileID: 7581707360967847754}
-  m_Layer: 3
+  - component: {fileID: 8888153591722050522}
+  m_Layer: 0
   m_Name: BrickWall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12920,6 +14303,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8888153591722050522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8403105534651134091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8475102752025616749
 GameObject:
   m_ObjectHideFlags: 0
@@ -12932,7 +14328,7 @@ GameObject:
   - component: {fileID: 7159870585630330023}
   - component: {fileID: 3115903316251274338}
   m_Layer: 0
-  m_Name: detailBowl
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12960,7 +14356,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8475102752025616749}
-  m_Mesh: {fileID: -5525893885305512421, guid: 4ee5062e2ca2e71408f405ee8aa153c9, type: 3}
+  m_Mesh: {fileID: -5525893885305512421, guid: 6e3d6b7fc7f141d40b01cd7cc3274a9d, type: 3}
 --- !u!23 &3115903316251274338
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13043,7 +14439,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8619207066569134521}
-  m_Mesh: {fileID: -4731679177984235742, guid: 0ae5632deb27e62419d1bddf3816e640, type: 3}
+  m_Mesh: {fileID: -4731679177984235742, guid: 6c87361b163dfc0479bab36e5259582e, type: 3}
 --- !u!23 &9110845805127809879
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13098,7 +14494,8 @@ GameObject:
   - component: {fileID: 7082072674642163764}
   - component: {fileID: 8315648204560996497}
   - component: {fileID: 8902451763100238251}
-  m_Layer: 3
+  - component: {fileID: 5296075094402377433}
+  m_Layer: 0
   m_Name: BrickWall (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13171,6 +14568,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5296075094402377433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621913605311153069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8702640000090838052
 GameObject:
   m_ObjectHideFlags: 0
@@ -13182,7 +14592,8 @@ GameObject:
   - component: {fileID: 7975025741611634696}
   - component: {fileID: 4949065285242422306}
   - component: {fileID: 5831973583088997590}
-  m_Layer: 3
+  - component: {fileID: 8391157149326921812}
+  m_Layer: 0
   m_Name: BrickWall (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13255,6 +14666,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8391157149326921812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702640000090838052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8749262531330103842
 GameObject:
   m_ObjectHideFlags: 0
@@ -13327,7 +14751,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8797845695509114083}
-  m_Mesh: {fileID: 2805319433547093475, guid: f535836e6dda86542aaf7c360c93d91a, type: 3}
+  m_Mesh: {fileID: 2805319433547093475, guid: a322116d85db8194badd1a4c4f4fe222, type: 3}
 --- !u!23 &6111807208417820563
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13382,7 +14806,8 @@ GameObject:
   - component: {fileID: 8453635256490913401}
   - component: {fileID: 5701079241182541264}
   - component: {fileID: 4640098330442491531}
-  m_Layer: 3
+  - component: {fileID: 2307740886897347352}
+  m_Layer: 0
   m_Name: BrickWall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13455,6 +14880,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2307740886897347352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798306417511892520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8828895358507345020
 GameObject:
   m_ObjectHideFlags: 0
@@ -13466,7 +14904,8 @@ GameObject:
   - component: {fileID: 4474308868306535795}
   - component: {fileID: 8705098290522520743}
   - component: {fileID: 892754395079401094}
-  m_Layer: 3
+  - component: {fileID: 3451099185605822230}
+  m_Layer: 0
   m_Name: BrickWall (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13539,6 +14978,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3451099185605822230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8828895358507345020}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8864177684721277148
 GameObject:
   m_ObjectHideFlags: 0
@@ -13550,7 +15002,8 @@ GameObject:
   - component: {fileID: 7930943111407820248}
   - component: {fileID: 989029024174559931}
   - component: {fileID: 2805893197008909412}
-  m_Layer: 3
+  - component: {fileID: 942168556729388646}
+  m_Layer: 0
   m_Name: BrickWall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13623,6 +15076,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &942168556729388646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8864177684721277148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &8998078171675051732
 GameObject:
   m_ObjectHideFlags: 0
@@ -13634,7 +15100,8 @@ GameObject:
   - component: {fileID: 8616591979780971630}
   - component: {fileID: 4628455037605778379}
   - component: {fileID: 7484811178968672001}
-  m_Layer: 3
+  - component: {fileID: 6109323272695588374}
+  m_Layer: 0
   m_Name: BrickWall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13707,6 +15174,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6109323272695588374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8998078171675051732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &9029898046242215439
 GameObject:
   m_ObjectHideFlags: 0
@@ -13718,7 +15198,8 @@ GameObject:
   - component: {fileID: 1898205233088470858}
   - component: {fileID: 5552162430678035280}
   - component: {fileID: 4871235802386342097}
-  m_Layer: 3
+  - component: {fileID: 4730100986083363866}
+  m_Layer: 0
   m_Name: BrickWall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13791,6 +15272,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4730100986083363866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9029898046242215439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 0.70191383, z: 0.17999998}
+  m_Center: {x: 0, y: 0.35095692, z: -0.40999997}
 --- !u!1 &9197819506249616775
 GameObject:
   m_ObjectHideFlags: 0
@@ -13802,7 +15296,8 @@ GameObject:
   - component: {fileID: 8168881336173879111}
   - component: {fileID: 4090912655463637768}
   - component: {fileID: 2944316391069330963}
-  m_Layer: 3
+  - component: {fileID: 4026321371840222485}
+  m_Layer: 0
   m_Name: BrickWall (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13875,6 +15370,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4026321371840222485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9197819506249616775}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0.70191383, z: 0.18000002}
+  m_Center: {x: 0, y: 0.35095692, z: -0.41000006}
 --- !u!1001 &2668400213369139634
 PrefabInstance:
   m_ObjectHideFlags: 0
