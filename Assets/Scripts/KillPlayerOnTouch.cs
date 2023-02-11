@@ -10,16 +10,13 @@ public class KillPlayerOnTouch : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag(targetTag))
+        tempKillable = other.GetComponent<IsKillable>();
+
+        if (tempKillable != null)
         {
-            tempKillable = other.GetComponent<IsKillable>();
-
-            if (tempKillable != null)
-            {
-                tempKillable.TakeDamage(1);
-            }
-
-            tempKillable = null;
+            tempKillable.TakeDamage(1);
         }
+
+        tempKillable = null;
     }
 }
