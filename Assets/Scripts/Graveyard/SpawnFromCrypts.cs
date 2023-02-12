@@ -8,6 +8,8 @@ public class SpawnFromCrypts : MonoBehaviour
     [Header("Spawner")]
     [SerializeField] Crypt[] crypts;
     [SerializeField] int activeFromNight;
+    [SerializeField] int maxIterations = 10;
+    int iterations;
     bool isActive = false;
 
     [Header("Difficulty curve")]
@@ -65,9 +67,12 @@ public class SpawnFromCrypts : MonoBehaviour
     {
         spawnTimer = spawnRate * Random.Range(1 - spawnRateDeviationFactor, 1 + spawnRateDeviationFactor);
 
+        iterations = 0;
         while (!isSpawned)
         {
             isSpawned = crypts[Random.Range(0, crypts.Length)].SpawnMonster();
+            iterations++;
+            if (iterations >= maxIterations) break;
         }
 
         isSpawned = false;

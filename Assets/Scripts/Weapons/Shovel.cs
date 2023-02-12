@@ -11,8 +11,8 @@ public class Shovel : MonoBehaviour
     [SerializeField] AnimationCurve shovelSwipeCurve;
     [SerializeField] float swipeTime;
 
-    [SerializeField] float attackReloadSeconds;
-    [SerializeField] int damage;
+    [SerializeField] float attackReloadSeconds; [SerializeField] float reloadUpgradeFactor;
+    [SerializeField] int damage; [SerializeField] int damageUpgrade;
 
     [SerializeField] LayerMask whatCanBeHit;
     [SerializeField] Transform damageZone;
@@ -120,12 +120,12 @@ public class Shovel : MonoBehaviour
 
     void UpgradeAttackRate()
     {
-        attackReloadSeconds *= 0.95f;
+        attackReloadSeconds *= reloadUpgradeFactor;
     }
 
     void UpgradeShovelDamage()
     {
-        damage += 10;
+        damage += damageUpgrade;
     }
 
     #endregion

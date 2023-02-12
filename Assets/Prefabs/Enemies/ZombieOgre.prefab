@@ -611,6 +611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa726b3325d347143ba0fe927430ddc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageZone: {fileID: 8275407598770535590}
+  bodyCollider: {fileID: 5764606368762624624}
   maxHealth: 50
   isBleeding: 1
   bleedingVFX: {fileID: 8948685816537476663}

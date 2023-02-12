@@ -9,6 +9,8 @@ public class Crypt : MonoBehaviour
     public int activeFromNight = 0;
     bool isActive = false;
 
+    [SerializeField] AudioSource spawnSound;
+
     void Awake()
     {
         DayNightCycle.updateNightCountUI += CheckNight;
@@ -37,6 +39,7 @@ public class Crypt : MonoBehaviour
     {
         if (!isActive || monster.activeSelf) return false;
 
+        spawnSound.Play();
         monster.transform.position = transform.position;
         monster.SetActive(true);
 

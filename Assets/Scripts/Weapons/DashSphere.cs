@@ -5,7 +5,14 @@ using UnityEngine;
 public class DashSphere : MonoBehaviour
 {
     public int dashDamage = 15;
+    [SerializeField] AudioSource audiofx;
+
     IsKillable tempKillable;
+
+    private void OnEnable()
+    {
+        audiofx.Play();
+    }
 
     private void OnTriggerEnter(Collider other)
     {

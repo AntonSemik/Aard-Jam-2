@@ -13,8 +13,11 @@ public class AwardScoreOnKill : MonoBehaviour
 
     private void OnDisable()
     {
-        if (firstDisable) return;
-
+        if (firstDisable)
+        {
+            firstDisable = false;
+            return;
+        }
         if (onAwardScore != null) onAwardScore(scoreAward);
     }
 }

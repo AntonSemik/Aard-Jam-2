@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class IsKillable : MonoBehaviour
 {
+    [SerializeField] GameObject damageZone;
+    [SerializeField] Collider bodyCollider;
+
     [SerializeField] int maxHealth;
     private int currentHealth;
 
@@ -12,11 +15,15 @@ public class IsKillable : MonoBehaviour
 
     private void Start()
     {
+        damageZone.SetActive(true);
+        bodyCollider.enabled = true;
         currentHealth = maxHealth;
     }
 
     private void OnEnable()
     {
+        damageZone.SetActive(true);
+        bodyCollider.enabled = true;
         currentHealth = maxHealth;
     }
 
@@ -45,6 +52,9 @@ public class IsKillable : MonoBehaviour
 
     IEnumerator DieWithDelay(float delay)
     {
+        bodyCollider.enabled = false;
+        damageZone.SetActive(false);
+
         yield return new WaitForSeconds(delay);
 
         Die();

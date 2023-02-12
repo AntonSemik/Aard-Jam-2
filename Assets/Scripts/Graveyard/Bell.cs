@@ -8,6 +8,7 @@ public class Bell : MonoBehaviour
 
     [SerializeField] Transform bellModel;
     [SerializeField] float tollingTime;
+    [SerializeField] AudioSource bell;
 
     private float tollCurvePoint;
 
@@ -32,6 +33,8 @@ public class Bell : MonoBehaviour
 
     void StartTolling()
     {
+        bell.Play();
+
         if (isTolling) return; isTolling = true;
 
         tollCurvePoint = 0;

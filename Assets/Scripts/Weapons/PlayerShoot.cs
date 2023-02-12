@@ -10,11 +10,11 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gunpoint;
 
-    [SerializeField] float reloadTimeBase = 2f;
-    [SerializeField] int maxBullets = 5;
-    [SerializeField] float spread = 10;
-    [SerializeField] float bulletVelocity;
-    [SerializeField] int bulletDamage;
+    [SerializeField] float reloadTimeBase = 2f, upgradeReloadFactor;
+    [SerializeField] int maxBullets = 10, upgradeMaxAmmo = 5;
+    [SerializeField] float spread = 10, upgradeSpreadFactor = 0.8f;
+    [SerializeField] float bulletVelocity, upgradeVelocityFactor = 1.05f;
+    [SerializeField] int bulletDamage, upgradeDamage = 10;
     [SerializeField] AudioSource shootSound;
     int currentBullets = 0;
 
@@ -100,7 +100,8 @@ public class PlayerShoot : MonoBehaviour
     {
         if (currentBullets < maxBullets)
         {
-            currentBullets++;
+            currentBullets += 5;
+            if(currentBullets > maxBullets) currentBullets = maxBullets;
         }
 
         if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
@@ -183,12 +184,12 @@ public class PlayerShoot : MonoBehaviour
 
     private void UpgradeMaxAmmo()
     {
-        maxBullets++;
+        maxBullets += upgradeMaxAmmo;
         if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
     }
     private void UpgradeSpread()
     {
-        spread *= 0.8f;
+        spread *= upgradeSpreadFactor;
     }
     private void UpgradeBulletsPerShot()
     {
@@ -196,17 +197,17 @@ public class PlayerShoot : MonoBehaviour
     }
     private void UpgradeFirerate()
     {
-        reloadTimeBase *= 0.9f;
+        reloadTimeBase *= upgradeReloadFactor;
     }
 
     private void UpgradeDamage()
     {
-        bulletDamage += 5;
+        bulletDamage += upgradeDamage;
     }
 
     private void UpgradeBulletVelocity()
     {
-        bulletVelocity *= 1.05f;
+        bulletVelocity *= upgradeVelocityFactor;
     }
 
     #endregion

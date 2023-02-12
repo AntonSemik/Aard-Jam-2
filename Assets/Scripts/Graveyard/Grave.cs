@@ -7,24 +7,26 @@ public class Grave : MonoBehaviour
     public GameObject monster;
 
     public int activeFromNight = 0;
-    protected bool isActive = false;
+    bool isActive = false;
 
-    protected void Awake()
+    [SerializeField] AudioSource spawnSound;
+
+    void Awake()
     {
         DayNightCycle.updateNightCountUI += CheckNight;
     }
 
-    protected void Start()
+    void Start()
     {
         monster = Instantiate(monster, transform.position, transform.rotation);
         monster.SetActive(false);
     }
-    protected void OnDestroy()
+    void OnDestroy()
     {
         DayNightCycle.updateNightCountUI -= CheckNight;
     }
 
-    protected void CheckNight(int night)
+    void CheckNight(int night)
     {
         if (night >= activeFromNight)
         {
@@ -36,6 +38,7 @@ public class Grave : MonoBehaviour
     {
         if (!isActive || monster.activeSelf) return false;
 
+        spawnSound.Play();
         monster.transform.position = transform.position;
         monster.SetActive(true);
 
