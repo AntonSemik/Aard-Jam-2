@@ -5,17 +5,15 @@ using UnityEngine.UI;
 
 public class ToggleSound : MonoBehaviour
 {
-    [SerializeField] AudioListener listener;
-
     private void Start()
     {
         if (PlayerPrefs.GetInt("soundIsOn", 1) == 1)
         {
-            listener.enabled = true;
+            AudioListener.volume = 1;
         }
         else
         {
-            listener.enabled = false;
+            AudioListener.volume = 0;
         }
     }
 
@@ -25,13 +23,13 @@ public class ToggleSound : MonoBehaviour
         {
             PlayerPrefs.SetInt("soundIsOn", 1);
 
-            listener.enabled = true;
+            AudioListener.volume = 1;
         }
         else
         {
             PlayerPrefs.SetInt("soundIsOn", 0);
 
-            listener.enabled = false;
+            AudioListener.volume = 0;
         }
     }
 }
