@@ -7,6 +7,10 @@ public class PlayerKillable : IsKillable
     [SerializeField] float deathDelay;
 
     [SerializeField] AudioSource deathSound;
+
+    public delegate void OnPlayerDeath();
+    public static OnPlayerDeath onPlayerDeath;
+
     public override void Die()
     {
         StartCoroutine(PlayerDeath());
@@ -15,6 +19,7 @@ public class PlayerKillable : IsKillable
     IEnumerator PlayerDeath()
     {
         deathSound.Play();
+        if (onPlayerDeath != null) onPlayerDeath();
 
         yield return new WaitForSeconds(deathDelay);
 

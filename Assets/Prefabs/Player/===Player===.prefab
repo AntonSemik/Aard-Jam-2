@@ -657,6 +657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dashDamage: 15
+  audiofx: {fileID: 0}
 --- !u!1 &4817147756614938774
 GameObject:
   m_ObjectHideFlags: 0
@@ -5533,10 +5534,15 @@ MonoBehaviour:
   bullet: {fileID: 4432689863005379471, guid: 05bc2c2f241e0294986389586302da8b, type: 3}
   gunpoint: {fileID: 8013709026041207827}
   reloadTimeBase: 0.1
+  upgradeReloadFactor: 0
   maxBullets: 5
+  upgradeMaxAmmo: 5
   spread: 10
+  upgradeSpreadFactor: 0.8
   bulletVelocity: 0
+  upgradeVelocityFactor: 1.05
   bulletDamage: 0
+  upgradeDamage: 10
   shootSound: {fileID: 2175118621615499811}
   poolSize: 30
 --- !u!82 &2175118621615499811
@@ -5731,6 +5737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ea8d11c9f57bd44a8b3be66cbaf27a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageZone: {fileID: 0}
+  bodyCollider: {fileID: 0}
   maxHealth: 1
   isBleeding: 1
   bleedingVFX: {fileID: 2106353399624511278}
@@ -6063,7 +6071,9 @@ MonoBehaviour:
     m_RotationOrder: 4
   swipeTime: 0.15
   attackReloadSeconds: 0.2
+  reloadUpgradeFactor: 0
   damage: 10
+  damageUpgrade: 0
   whatCanBeHit:
     serializedVersion: 2
     m_Bits: 128
