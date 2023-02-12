@@ -9,9 +9,12 @@ public class AwardScoreOnKill : MonoBehaviour
 
     [SerializeField] int scoreAward;
 
-    private void OnDestroy()
+    bool firstDisable = true;
+
+    private void OnDisable()
     {
+        if (firstDisable) return;
+
         if (onAwardScore != null) onAwardScore(scoreAward);
-        
     }
 }

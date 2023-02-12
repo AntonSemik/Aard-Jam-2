@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class PlayerKillable : IsKillable
 {
+    [SerializeField] float deathDelay;
+
     [SerializeField] GameObject loseMenuPanel;
 
     public override void Die()
     {
-        if(OpenScene.onOpenScene != null) OpenScene.onOpenScene();
+        StartCoroutine(PlayerDeath());
+    }
+
+    IEnumerator PlayerDeath()
+    {
+        yield return new WaitForSeconds(deathDelay);
+
+        if (OpenScene.onOpenScene != null) OpenScene.onOpenScene();
     }
 }

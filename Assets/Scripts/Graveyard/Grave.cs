@@ -4,43 +4,42 @@ using UnityEngine;
 
 public class Grave : MonoBehaviour
 {
-    [SerializeField] GameObject[] availiableMonsters;
+    public GameObject monster;
 
-    private int poolSize = 5;
-    private Queue<GameObject> monsterPool = new Queue<GameObject>();
+    public int activeFromNight = 0;
+    protected bool isActive = false;
 
-    private GameObject tempObj;
-
-    private void Start()
+    protected void Awake()
     {
-        InitialisePool();
+        DayNightCycle.updateNightCountUI += CheckNight;
     }
 
-    void InitialisePool()
+    protected void Start()
     {
-        for (int i = 0; i < poolSize; i++)
-        {
-            tempObj = Instantiate(availiableMonsters[Random.Range(0, availiableMonsters.Length)], transform.position, transform.rotation);
-            tempObj.SetActive(false);
-            monsterPool.Enqueue(tempObj);
+        monster = Instantiate(monster, transform.position, transform.rotation);
+        monster.SetActive(false);
+    }
+    protected void OnDestroy()
+    {
+        DayNightCycle.updateNightCountUI -= CheckNight;
+    }
 
-            tempObj = null;
+    protected void CheckNight(int night)
+    {
+        if (night >= activeFromNight)
+        {
+            isActive = true;
         }
     }
 
-    public void SpawnMonster()
+    public bool SpawnMonster()
     {
-        tempObj = monsterPool.Peek();
+        if (!isActive || monster.activeSelf) return false;
 
-        if (tempObj == null) return;
+        monster.transform.position = transform.position;
+        monster.SetActive(true);
 
-        if (!tempObj.activeSelf)
-        {
-            tempObj = monsterPool.Dequeue();
-            tempObj.SetActive(true);
-            tempObj.transform.position = transform.position;
-
-            monsterPool.Enqueue(tempObj);
-        }
+        return true;
     }
+
 }

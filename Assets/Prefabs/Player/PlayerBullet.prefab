@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startVelocity: 75
-  damage: 10
+  damage: 25
   lifeTime: 1
   RB: {fileID: 4432689863005379470}
 --- !u!1 &5953854999840566138

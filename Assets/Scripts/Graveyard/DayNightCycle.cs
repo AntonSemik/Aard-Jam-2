@@ -15,15 +15,38 @@ public class DayNightCycle : MonoBehaviour
     private bool isNight = false;
     private float cycleTimer;
 
+    private float timePercent;
+    private int nightSurvived = 0;
+    private int totalNights;
+    public delegate void NightCountUI(int current);
+    public static NightCountUI updateNightCountUI;
+    public delegate void UpdateClockUI(float value);
+    public static UpdateClockUI updateClockUI;
+
     private void Start()
     {
         isNight = false;
         cycleTimer = dayLengthSeconds;
+
+        if (updateNightCountUI != null) updateNightCountUI(nightSurvived);
+
+        totalNights = PlayerPrefs.GetInt("totalNights", 0);
     }
 
     private void Update()
     {
         cycleTimer -= Time.deltaTime;
+
+        if (isNight)
+        {
+            timePercent = cycleTimer / nightLengthSeconds;
+        }
+        else
+        {
+            timePercent = cycleTimer / dayLengthSeconds;
+        }
+
+        if (updateClockUI != null) updateClockUI(timePercent);
 
         if(cycleTimer <= 0)
         {
@@ -45,6 +68,10 @@ public class DayNightCycle : MonoBehaviour
     private void StartDay()
     {
         cycleTimer = dayLengthSeconds; isNight = false;
+
+        nightSurvived++;
+        if (updateNightCountUI != null) updateNightCountUI(nightSurvived);
+        PlayerPrefs.SetInt("totalNights", totalNights + 1);
 
         if (dayStart != null) dayStart();
     }

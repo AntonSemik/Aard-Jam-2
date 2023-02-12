@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float speedBase;
     [SerializeField] float stoppingDistance;
+    [SerializeField] float rotationSpeedAnglesPerSec;
 
     Vector3 direction;
+    Quaternion targetRot;
     Rigidbody RB;
     Transform player;
 
@@ -30,12 +33,9 @@ public class EnemyMovement : MonoBehaviour
     {
         direction = player.position - transform.position;
 
-        if (direction.sqrMagnitude > Mathf.Pow(stoppingDistance, 2))
-        {
-            RB.velocity = (player.position - transform.position).normalized * speedBase;
-        } else
-        {
-            RB.velocity = Vector3.zero;
-        }
+        targetRot = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRot, rotationSpeedAnglesPerSec * Time.deltaTime);
+
+        RB.velocity = transform.forward * speedBase;
     }
 }

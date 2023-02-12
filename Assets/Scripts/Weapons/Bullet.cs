@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] float startVelocity;
+    public float startVelocity;
 
-    [SerializeField] int damage = 10;
+    public int damage;
 
     [SerializeField] float lifeTime = 3f;
     float timeLeft;
@@ -37,7 +37,7 @@ public class Bullet : MonoBehaviour
 
         if(tempKillable != null)
         {
-            tempKillable.TakeDamage(damage);
+            tempKillable.TakeDamage(damage, 1);
         }
 
         tempKillable = null;

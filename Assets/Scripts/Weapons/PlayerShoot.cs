@@ -10,17 +10,32 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gunpoint;
 
-    [SerializeField] float reloadTimeBase = 0.5f;
-    [SerializeField] float timeFactorPerMultiplier = 0.2f;
-    int currentScoreMultiplier = 1;
+    [SerializeField] float reloadTimeBase = 2f;
+    [SerializeField] int maxBullets = 5;
+    [SerializeField] float spread = 10;
+    [SerializeField] float bulletVelocity;
+    [SerializeField] int bulletDamage;
+    [SerializeField] AudioSource shootSound;
+    int currentBullets = 0;
 
-    [SerializeField] float bulletSpreadAngle = 3.0f;
+    private int bulletsPerShot = 1;
 
     float timeToNextShot = 0; bool isLoaded;
 
     Queue<GameObject> bulletQueue = new Queue<GameObject>();
     [SerializeField] int poolSize = 20;
     GameObject tempObject;
+
+    public delegate void SendBulletsToUI(int value, int maxvalue);
+    public static SendBulletsToUI sendBulletsToUI;
+
+    private void Awake()
+    {
+        OnShootInputAction.performed += OnShootInput;
+        OnShootInputAction.canceled += ResetShootInput;
+
+        SubscribeToUpgrades();
+    }
 
     private void Start()
     {
@@ -33,18 +48,18 @@ public class PlayerShoot : MonoBehaviour
         SetPool();
         
         OnShootInputAction.Enable();
-        OnShootInputAction.performed += OnShootInput;
-        OnShootInputAction.canceled += ResetShootInput;
 
-        Score.onScoreMultiplierChanged += ScoreMultiplierChanged;
+        AmmoBox.takeBullet += AddBullet;
+
+        currentBullets = maxBullets;
+
+        if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
     }
 
     private void Update()
     {
         if (!isLoaded)
         {
-            //timeToNextShot -= Time.deltaTime * (1 + timeFactorPerMultiplier * currentScoreMultiplier);
-
             timeToNextShot -= Time.deltaTime;
             if (timeToNextShot <= 0) isLoaded = true;
         }
@@ -53,7 +68,7 @@ public class PlayerShoot : MonoBehaviour
         {
             Shoot();
 
-            timeToNextShot = reloadTimeBase * ( 1 + timeFactorPerMultiplier * currentScoreMultiplier);
+            timeToNextShot = reloadTimeBase;
             isLoaded = false;
         }
     }
@@ -65,7 +80,9 @@ public class PlayerShoot : MonoBehaviour
 
         OnShootInputAction.Disable();
 
-        Score.onScoreMultiplierChanged -= ScoreMultiplierChanged;
+        AmmoBox.takeBullet -= AddBullet;
+
+        UnsubscribeFromUpgrades();
     }
 
     private void SetPool()
@@ -79,16 +96,39 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
+    private void AddBullet()
+    {
+        if (currentBullets < maxBullets)
+        {
+            currentBullets++;
+        }
+
+        if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
+    }
+
     private void Shoot()
     {
-        tempObject = bulletQueue.Dequeue();
-        bulletQueue.Enqueue(tempObject);
+        if (currentBullets <= 0) return;
+        currentBullets--;
+        if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
 
-        tempObject.transform.position = gunpoint.position;
-        tempObject.transform.rotation = gunpoint.rotation;
-        tempObject.transform.RotateAround(tempObject.transform.position,Vector3.up, Random.Range(-bulletSpreadAngle, bulletSpreadAngle));
+        shootSound.Play();
 
-        tempObject.SetActive(true);
+        for (int i = 0; i < bulletsPerShot; i++)
+        {
+            tempObject = bulletQueue.Dequeue();
+            bulletQueue.Enqueue(tempObject);
+
+            tempObject.transform.position = gunpoint.position;
+            tempObject.transform.rotation = gunpoint.rotation;
+            tempObject.transform.RotateAround(tempObject.transform.position, Vector3.up, Random.Range(-spread, spread));
+
+            Bullet bullet = tempObject.GetComponent<Bullet>();
+            bullet.startVelocity = bulletVelocity;
+            bullet.damage = bulletDamage;
+
+            tempObject.SetActive(true);
+        }
     }
 
     private void OnShootInput(InputAction.CallbackContext context)
@@ -101,8 +141,73 @@ public class PlayerShoot : MonoBehaviour
         shootInput = 0;
     }
 
-    void ScoreMultiplierChanged(int value)
+    #region upgrades
+    void MakeUpgrade(string name)
     {
-        currentScoreMultiplier = value - 1;
+        switch (name)
+        {
+            case "maxammo":
+                UpgradeMaxAmmo();
+                break;
+
+            case "spread":
+                UpgradeSpread();
+                break;
+
+            case "bulletspershot":
+                UpgradeBulletsPerShot();
+                break;
+
+            case "firerate":
+                UpgradeFirerate();
+                break;
+
+            case "damage":
+                UpgradeDamage();
+                break;
+
+            case "velocity":
+                UpgradeBulletVelocity();
+                break;
+        }
     }
+
+    void SubscribeToUpgrades()
+    {
+        UpgradeRewards.onUpgrade += MakeUpgrade;
+    }
+    void UnsubscribeFromUpgrades()
+    {
+        UpgradeRewards.onUpgrade -= MakeUpgrade;
+    }
+
+    private void UpgradeMaxAmmo()
+    {
+        maxBullets++;
+        if (sendBulletsToUI != null) sendBulletsToUI(currentBullets, maxBullets);
+    }
+    private void UpgradeSpread()
+    {
+        spread *= 0.8f;
+    }
+    private void UpgradeBulletsPerShot()
+    {
+        bulletsPerShot++;
+    }
+    private void UpgradeFirerate()
+    {
+        reloadTimeBase *= 0.9f;
+    }
+
+    private void UpgradeDamage()
+    {
+        bulletDamage += 5;
+    }
+
+    private void UpgradeBulletVelocity()
+    {
+        bulletVelocity *= 1.05f;
+    }
+
+    #endregion
 }
